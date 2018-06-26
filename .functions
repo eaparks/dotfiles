@@ -197,3 +197,9 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# search Google from cmd line
+function google() {
+        open /Applications/Google\ Chrome.app/ "http://www.google.com/search?q= $1";
+}
+
