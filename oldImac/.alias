@@ -1,0 +1,8 @@
+alias echop='echo $PATH'
+alias echocp='echo $CLASSPATH'
+alias h=history 50
+alias ll='ls -la'
+alias lsd="ls -la | grep '^d'"
+alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+alias gv='vim -g'
+

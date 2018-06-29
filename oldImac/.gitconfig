@@ -1,0 +1,14 @@
+[user]
+	name = Ed Parks
+	email = edward.parks@gmail.com
+[push]
+	default = simple
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
+[core]
+	editor = vim
+	autocrlf = input
+[alias]
+	lga = log --graph --oneline --all --decorate
