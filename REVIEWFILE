@@ -1,0 +1,39 @@
+To Be Reviewed and Ok'd
+ .gitignore
+ .gvimrc
+ .hgignore
+ .hushlogin
+ .inputrc
+ .macos
+ .osx
+ .screenrc
+ .tmux.conf
+ .vim
+ .vimrc
+ .wgetrc
+ LICENSE-MIT.txt
+ README.md
+-----dir bin
+-----dir init
+-----dir oldImac
+
+TODOs:
+ .functions   // TODO - understand pygmantize; what is tree? In brew setup?
+Further investigate tools listed under "Install some CFT tools" in brew.sh. Leaving all there for now.
+
+
+Reviewed and OK'd
+ .aliases
+ .bash_profile
+ .bash_prompt
+ .bashrc
+ .curlrc
+ .editorconfig
+ .exports
+ .gdbinit   # GNU debugger
+ .gitattributes
+ .gitconfig     # Does ~/.gitconfig get overwritten?
+
+ bootstrap.sh
+ brew.sh
+

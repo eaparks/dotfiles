@@ -84,7 +84,8 @@ brew install imagemagick --with-webp
 brew install lua
 brew install lynx
 brew install p7zip
-brew install pigz
+brew install pigz   # Parallel gzip
+# Pipe Viewer is an Open Source tool to monitor the progress of data through a pipeline between any two processes, giving a progress bar, ETA, etc.
 brew install pv
 brew install rename
 brew install rlwrap
