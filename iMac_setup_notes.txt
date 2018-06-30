@@ -1,0 +1,38 @@
+iMac Installation Notes
+
+Installed     Avast - virus scanner
+Turned on     built-in firewall
+Installed     Atom
+Installed     Dashlane
+Installed     Sonos controller app
+Installed     homebrew, nvm (then node)
+
+Following a few setup guides:
+  http://sourabhbajaj.com/mac-setup/Homebrew/Usage.html
+  https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/
+  https://medium.com/@tretuna/macbook-pro-web-developer-setup-from-clean-slate-to-dev-machine-1befd4121ba8
+
+Installed several apps via:
+  brew bundle install
+This uses ~/Brewfile
+
+Abandoning some of the above in favor of:
+	https://github.com/mathiasbynens/dotfiles
+....forked into my GitHub project:
+	https://github.com/eaparks/dotfiles
+
+However, sticking with
+	Ultimate vimrc (https://github.com/amix/vimrc)
+and
+	Maximum Awesome (https://github.com/square/maximum-awesome)
+
+To update the vimrc scripts, run:
+
+cd ~/.vim_runtime && git pull --rebase && cd -
+
+Abandoning Z shell for now. Want to get used to dot files implementation. Will consider zsh and oh-my-zsh in coming months.
+
+Installed Python via Brew.
+Installed pyenv to manage python versions, per:
+  http://sourabhbajaj.com/mac-setup/Python/
+
