@@ -22,8 +22,7 @@ brew install findutils
 brew install gnu-sed --with-default-names
 
 # Install Bash 4.
-# TODO: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
-# running `chsh`.
+# TODO: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
 brew install bash
 brew install bash-completion2
 
@@ -52,7 +51,7 @@ brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
 
-# Install some CTF tools; see https://github.com/ctfs/write-ups.
+# Install some CTF (capture the flag) tools; see https://github.com/ctfs/write-ups.
 brew install aircrack-ng
 brew install bfg
 brew install binutils
@@ -97,6 +96,9 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+
+# AWS
+brew install awscli
 
 # Remove outdated versions from the cellar.
 brew cleanup
