@@ -9,6 +9,13 @@ TODOs:
 + Time Machine settings. See .macos
 
 ======================
+NOTES:
+======================
+
+bash completion was failing during 'cd' until I did this:
+ iTerm.app -> Preferences -> Profiles -> General -> Command -> Click on "Command" and paste "/usr/local/bin/bash --login"
+
+======================
 
 Reviewed and OK'd
  .aliases
