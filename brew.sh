@@ -75,6 +75,8 @@ brew install tcpreplay
 brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
 brew install xpdf
+
+# XZ Utils is free general-purpose data compression software with a high compression ratio. 
 brew install xz
 
 # Install other useful binaries.

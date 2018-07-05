@@ -198,3 +198,11 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+[user]
+	name = Ed Parks
+	email = edward.parks@gmail.com
+# See ~/dotfiles/.gitconfig.private with key filled in:
+	signingkey = 
+
+[gpg]
+	program = gpg
