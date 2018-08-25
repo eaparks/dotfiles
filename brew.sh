@@ -98,6 +98,7 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+brew install gradle
 
 # AWS
 brew install awscli

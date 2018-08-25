@@ -29,7 +29,7 @@ alias l="ls -lF ${colorflag}"
 alias la="ls -laF ${colorflag}"
 
 # List only directories
-alias lsd="ls -lF ${colorflag} | grep '^d'"
+alias lsd="ls -laF ${colorflag} | grep '^d'"
 
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
@@ -138,9 +138,6 @@ alias gup='git fetch && git rebase'
 
 alias gp='git push'
 # compdef _git gp=git-push
-
-gdv() { git diff -w "$@" | view - }
-# compdef _git gdv=git-diff
 
 alias gc='git commit -v'
 # compdef _git gc=git-commit
