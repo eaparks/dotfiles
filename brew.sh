@@ -76,28 +76,21 @@ brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
 brew install xpdf
 
-# XZ Utils is free general-purpose data compression software with a high compression ratio. 
+# XZ Utils is free general-purpose data compression software with a high compression ratio.
 brew install xz
 
 # Install other useful binaries.
-brew install ack
-#brew install exiv2
+brew install ack    # beyond grep
 brew install git
 brew install git-lfs
-brew install imagemagick --with-webp
-brew install lua
+
+# Text-based browser:
 brew install lynx
 brew install p7zip
 brew install pigz   # Parallel gzip
-# Pipe Viewer is an Open Source tool to monitor the progress of data through a pipeline between any two processes, giving a progress bar, ETA, etc.
-brew install pinentry-mac
-brew install pv
-brew install rename
-brew install rlwrap
-brew install ssh-copy-id
+
+# List dir files in tree form:
 brew install tree
-brew install vbindiff
-brew install zopfli
 brew install gradle
 
 # AWS
