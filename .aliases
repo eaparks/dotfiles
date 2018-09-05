@@ -179,3 +179,5 @@ alias gm='git merge'
 
 alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
+
+alias cat=bat

@@ -14,6 +14,21 @@ brew install coreutils
 
 # Install some other useful utilities like `sponge`.
 brew install moreutils
+# moreutils includes these:
+#  chronic: runs a command quietly unless it fails
+#  combine: combine the lines in two files using boolean operations
+#  ifdata: get network interface info without parsing ifconfig output
+#  ifne: run a program if the standard input is not empty
+#  isutf8: check if a file or standard input is utf-8
+#  lckdo: execute a program with a lock held
+#  mispipe: pipe two commands, returning the exit status of the first
+#  parallel: run multiple jobs at once
+#  pee: tee standard input to pipes
+#  sponge: soak up standard input and write to a file
+#  ts: timestamp standard input
+#  vidir: edit a directory in your text editor
+#  vipe: insert a text editor into a pipe
+#  zrun: automatically uncompress arguments to command
 
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
@@ -43,6 +58,7 @@ brew install gnupg
 brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
+# TODO - what is this for:
 brew install screen
 brew install homebrew/php/php56 --with-gmp
 
@@ -67,14 +83,18 @@ brew install hydra
 brew install john
 brew install knock
 brew install netpbm
+# TODO - what is this for:
 brew install nmap
 brew install pngcheck
 brew install socat
+# TODO - what is this for:
 brew install sqlmap
 brew install tcpflow
+# TODO - what is this for:
 brew install tcpreplay
 brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
+# TODO - what is this for:
 brew install xpdf
 
 # XZ Utils is free general-purpose data compression software with a high compression ratio.
@@ -99,3 +119,16 @@ brew install awscli
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Better than cat:
+brew install bat
+
+# Convert from one doc format to another
+# eg, pandoc -f markdown -t html README.md > README.html
+brew install pandoc
+
+# Just for fun....
+brew install fortune
+brew install cowsay
+brew install lolcat
+
