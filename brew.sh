@@ -39,7 +39,7 @@ brew install gnu-sed --with-default-names
 # Install Bash 4.
 # TODO: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
 brew install bash
-# brew install bash-completion2
+#brew install bash-completion2   # This screws up filename completion with my aliases
 brew install bash-completion
 
 # Switch to using brew-installed bash as default shell
@@ -69,18 +69,11 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF (capture the flag) tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
-brew install bfg
 brew install binutils
-brew install binwalk
-brew install cifer
 brew install dex2jar
 brew install dns2tcp
 brew install fcrackzip
-brew install foremost
 brew install hashpump
-brew install hydra
-brew install john
 brew install knock
 brew install netpbm
 # TODO - what is this for:
