@@ -110,9 +110,6 @@ brew install gradle
 # AWS
 brew install awscli
 
-# Remove outdated versions from the cellar.
-brew cleanup
-
 # Better than cat:
 brew install bat
 
@@ -124,4 +121,9 @@ brew install pandoc
 brew install fortune
 brew install cowsay
 brew install lolcat
+
+brew install jenv
+
+# Remove outdated versions from the cellar.
+brew cleanup
 
