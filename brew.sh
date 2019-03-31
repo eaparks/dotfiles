@@ -69,17 +69,17 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF (capture the flag) tools; see https://github.com/ctfs/write-ups.
-brew install binutils
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install hashpump
-brew install knock
-brew install netpbm
+#brew install binutils
+#brew install dex2jar
+#brew install dns2tcp
+#brew install fcrackzip
+#brew install hashpump
+#brew install knock
+#brew install netpbm
 # TODO - what is this for:
 brew install nmap
 brew install pngcheck
-brew install socat
+#brew install socat
 # TODO - what is this for:
 brew install sqlmap
 brew install tcpflow
@@ -89,9 +89,6 @@ brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
 # TODO - what is this for:
 brew install xpdf
-
-# XZ Utils is free general-purpose data compression software with a high compression ratio.
-brew install xz
 
 # Install other useful binaries.
 brew install ack    # beyond grep

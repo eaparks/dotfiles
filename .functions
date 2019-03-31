@@ -104,6 +104,7 @@ function gz() {
 
 # Syntax-highlight JSON strings or files
 # Usage: `json '{"foo":42}'` or `echo '{"foo":42}' | json`
+# eap: I had to do 'pip3 install pygments' to get this going
 function json() {
 	if [ -t 0 ]; then # argument
 		python -mjson.tool <<< "$*" | pygmentize -l javascript;
@@ -163,6 +164,16 @@ function v() {
 	else
 		vim "$@";
 	fi;
+}
+
+# `gv` with no arguments opens gvim without a file to edit, otherwise opens the
+# given file for editing
+function gv() {
+    local f
+    for f; do
+        test -e "$f" || touch "$f"
+    done
+    open -a MacVim.app "$@"
 }
 
 # `o` with no arguments opens the current directory in Finder, otherwise opens the given
