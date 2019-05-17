@@ -9,6 +9,8 @@ alias ....="cd ../../.."
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
+alias sr="cd ~/Projects/WhoDat/grmSalesrepRouting"
+alias did="cd ~/Projects/WhoDat/uscm_cct_distribution_did"
 alias g="git"
 alias h="history"
 alias cl="clear;la"
@@ -100,12 +102,6 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 # URL-encode strings
 alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'
 
-# PlistBuddy alias, because sometimes `defaults` just doesn’t cut it
-alias plistbuddy="/usr/libexec/PlistBuddy"
-
-# Airport CLI alias
-alias airport='/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport'
-
 # Intuitive map function
 # For example, to list all directories that contain a certain file:
 # find . -name .gitattributes | map dirname
@@ -180,3 +176,8 @@ alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
 
 alias cat=bat
+
+# find aliases
+alias find5='find . -mmin -5 -type f -exec ls -l {} +'
+alias find10='find . -mmin -10 -type f -exec ls -l {} +'
+

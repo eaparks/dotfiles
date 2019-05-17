@@ -60,7 +60,6 @@ brew install grep
 brew install openssh
 # TODO - what is this for:
 brew install screen
-brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -120,6 +119,10 @@ brew install cowsay
 brew install lolcat
 
 brew install jenv
+brew install dos2unix
+
+# Search
+brew install the_silver_searcher
 
 # Remove outdated versions from the cellar.
 brew cleanup

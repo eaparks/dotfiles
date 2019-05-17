@@ -1,4 +1,4 @@
-# Edward's dotfiles (based on Mathias’s dotfiles)
+# Edward's dotfiles [based on Mathias’s dotfiles](https://github.com/mathiasbynens/dotfiles)
 
 
 
