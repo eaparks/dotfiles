@@ -43,3 +43,5 @@ export NVM_DIR="$HOME/.nvm"
 # Various _HOME variables
 export GRADLE_HOME="/usr/local/Cellar/gradle/4.9/"
 
+export JAVA_HOME=$(/usr/libexec/java_home)
+
