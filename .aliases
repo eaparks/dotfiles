@@ -9,7 +9,7 @@ alias ....="cd ../../.."
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
-alias cn="cd ~/Documents/OneDrive/OneDrive\ -\ Liberty\ Mutual/notes/"
+alias cn="cd ${NOTES_DIR}"
 
 # repos
 alias awsmed="cd ~/Projects/WhoDat/aws-mediation/"
