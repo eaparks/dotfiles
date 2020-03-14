@@ -5,17 +5,28 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-# Shortcuts
+# cd Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
-alias sr="cd ~/Projects/WhoDat/grmSalesrepRouting"
+alias cn="cd ~/Documents/OneDrive/OneDrive\ -\ Liberty\ Mutual/notes/"
+
+# repos
+alias awsmed="cd ~/Projects/WhoDat/aws-mediation/"
+alias nlu="cd ~/Projects/WhoDat/nlu/"
+alias nlubl="cd ~/Projects/WhoDat/nlu/uscm-cct_shared_business_logic"
+alias nluui="cd ~/Projects/WhoDat/nlu/uscm-cct-nlu-ivr"
+alias sr="cd ~/Projects/WhoDat/GRMCCT/sales-rep-routing"
+alias srui="cd ~/Projects/WhoDat/GRMCCT/sales-rep-routing/grm-srr-ui"
+alias did="cd ~/Projects/WhoDat/uscm_cct_distribution_did"
 alias didbl="cd ~/Projects/WhoDat/uscm_cct_distribution_did/uscm_cct_distribution_did_business_logic"
 alias didivr="cd ~/Projects/WhoDat/uscm_cct_distribution_did/uscm_cct_distribution_did_ep"
-alias did="cd ~/Projects/WhoDat/uscm_cct_distribution_did"
+
+
 alias g="git"
-alias h="history"
-alias cl="clear;la"
+alias h="history 30"
+alias gh='history | grep '
+alias cl="clear;lal"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -31,9 +42,13 @@ alias l="ls -lF ${colorflag}"
 
 # List all files colorized in long format, including dot files
 alias la="ls -laF ${colorflag}"
+alias lal="ls -laF ${colorflag} | lolcat"
 
 # List only directories
 alias lsd="ls -laF ${colorflag} | grep '^d'"
+
+# List dotfiles
+alias l.="ls -d .* ${colorflag}"
 
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
@@ -121,7 +136,7 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 alias echop=path
 
-alias cl='clear;la'
+alias cl='clear;lal'
 
 # Git aliases (borrowed from oh-my-zsh repo)
 alias gst='git status'

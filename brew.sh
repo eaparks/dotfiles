@@ -86,7 +86,7 @@ brew install tcpflow
 brew install tcpreplay
 brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
-# TODO - what is this for:
+# This is a pdf viewer:
 brew install xpdf
 
 # Install other useful binaries.
@@ -112,10 +112,15 @@ brew install bat
 # Convert from one doc format to another
 # eg, pandoc -f markdown -t html README.md > README.html
 brew install pandoc
+# Some pandoc dependencies:
+brew install librsvg
+brew install homebrew/cask/basictex
+brew install pdflatex
 
 # Just for fun....
-brew install fortune
 brew install cowsay
+brew install figlet
+brew install fortune
 brew install lolcat
 
 brew install jenv

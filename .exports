@@ -41,7 +41,7 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
 # Various _HOME variables
-export GRADLE_HOME="/usr/local/Cellar/gradle/4.9/"
+export GRADLE_HOME="/usr/local/opt/gradle/libexec/"
 
 export JAVA_HOME=$(/usr/libexec/java_home)
 
