@@ -46,5 +46,5 @@ export GRADLE_HOME="/usr/local/opt/gradle/libexec/"
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 #export NOTES_DIR="$HOME/Documents/OneDrive/OneDrive - Liberty Mutual/notes"
-export NOTES_DIR="$HOME/Documents/OneDrive/*/notes"
+export NOTES_DIR="$HOME/Documents/OneDrive/notes"
 

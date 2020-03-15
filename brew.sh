@@ -114,8 +114,9 @@ brew install bat
 brew install pandoc
 # Some pandoc dependencies:
 brew install librsvg
-brew install homebrew/cask/basictex
 brew install pdflatex
+brew cask install mactex
+#brew install homebrew/cask/basictex
 
 # Just for fun....
 brew install cowsay
