@@ -45,6 +45,14 @@ export GRADLE_HOME="/usr/local/opt/gradle/libexec/"
 
 export JAVA_HOME=$(/usr/libexec/java_home)
 
-#export NOTES_DIR="$HOME/Documents/OneDrive/OneDrive - Liberty Mutual/notes"
-export NOTES_DIR="$HOME/Documents/OneDrive/notes"
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
+
+export NOTES_DIR="$HOME/Documents/OneDrive/OneDriveLibMu/notes"
+export M2_HOME=/usr/local/Cellar/maven/3.6.3_1
+
+########################
+
+# Temporary, for notes. Replace with date fnc:
+export YEAR="2020"
+export QUARTER="2"
 

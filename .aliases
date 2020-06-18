@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Easier navigation: .., ..., ...., ....., ~ and -
+# Easier navigation:
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -11,20 +11,14 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias cn="cd ${NOTES_DIR}"
 
-# repos
-alias awsmed="cd ~/Projects/WhoDat/aws-mediation/"
-alias nlu="cd ~/Projects/WhoDat/nlu/"
-alias nlubl="cd ~/Projects/WhoDat/nlu/uscm-cct_shared_business_logic"
-alias nluui="cd ~/Projects/WhoDat/nlu/uscm-cct-nlu-ivr"
-alias sr="cd ~/Projects/WhoDat/GRMCCT/sales-rep-routing"
-alias srui="cd ~/Projects/WhoDat/GRMCCT/sales-rep-routing/grm-srr-ui"
-alias did="cd ~/Projects/WhoDat/uscm_cct_distribution_did"
-alias didbl="cd ~/Projects/WhoDat/uscm_cct_distribution_did/uscm_cct_distribution_did_business_logic"
-alias didivr="cd ~/Projects/WhoDat/uscm_cct_distribution_did/uscm_cct_distribution_did_ep"
+# cd to repos
+alias iuw="cd ~/Projects/iUnderwrite"
+alias nip1="cd ~/Projects/niProperty"
+alias nip2="cd ~/Projects/niProposal"
 
 
 alias g="git"
-alias h="history 30"
+alias h="history 50"
 alias gh='history | grep '
 alias cl="clear;lal"
 
@@ -45,7 +39,7 @@ alias la="ls -laF ${colorflag}"
 alias lal="ls -laF ${colorflag} | lolcat"
 
 # List only directories
-alias lsd="ls -laF ${colorflag} | grep '^d'"
+alias lsd="ls -ld ${colorflag} */"
 
 # List dotfiles
 alias l.="ls -d .* ${colorflag}"
@@ -60,7 +54,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 # Enable aliases to be sudo’ed
-alias sudo='sudo '
+
 
 # Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g'
@@ -76,9 +70,6 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[
 
 # Show active network interfaces
 alias ifactive="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'"
-
-# Flush Directory Service cache
-alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 
 # Clean up LaunchServices to remove duplicates in the “Open With” menu
 alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"

@@ -75,7 +75,8 @@ brew install woff2
 #brew install hashpump
 #brew install knock
 #brew install netpbm
-# TODO - what is this for:
+
+# network security scanner:
 brew install nmap
 brew install pngcheck
 #brew install socat
@@ -93,9 +94,11 @@ brew install xpdf
 brew install ack    # beyond grep
 brew install git
 brew install git-lfs
+brew install maven
 
 # Text-based browser:
 brew install lynx
+#brew install links # An alternative to lynx
 brew install p7zip
 brew install pigz   # Parallel gzip
 
@@ -103,8 +106,15 @@ brew install pigz   # Parallel gzip
 brew install tree
 brew install gradle
 
+# System resource monitor
+brew install htop
+
 # AWS
 brew install awscli
+
+#CloudFoundry
+brew tap cloudfoundry/tap
+brew install cf-cli
 
 # Better than cat:
 brew install bat

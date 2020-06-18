@@ -127,7 +127,7 @@
 
 [commit]
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+	gpgsign = false
 
 [help]
 	# Automatically correct and execute mistyped commands
@@ -173,9 +173,10 @@
 
 [user]
 	name = Ed Parks
-	email = edward.parks@gmail.com
+	email = edward.parks@libertymutual.com
 # See ~/dotfiles/.gitconfig.private with key filled in:
 	signingkey = 
 
 [gpg]
 	program = gpg
+
