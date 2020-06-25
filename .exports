@@ -36,9 +36,23 @@ export MANPAGER='less -X';
 export GPG_TTY=$(tty);
 
 # Node Volume Manager
-export NVM_DIR="/Users/n0261864/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
 # Various _HOME variables
-export GRADLE_HOME="/usr/local/Cellar/gradle/4.9/"
+export GRADLE_HOME="/usr/local/opt/gradle/libexec/"
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
+
+export NOTES_DIR="$HOME/Documents/OneDrive/OneDriveLibMu/notes"
+export M2_HOME=/usr/local/Cellar/maven/3.6.3_1
+
+########################
+
+# Temporary, for notes. Replace with date fnc:
+export YEAR="2020"
+export QUARTER="2"
 

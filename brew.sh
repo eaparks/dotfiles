@@ -36,7 +36,7 @@ brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
 
-# Install Bash 4.
+# Install Bash 4 or is it 5.
 # TODO: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
 brew install bash
 #brew install bash-completion2   # This screws up filename completion with my aliases
@@ -48,8 +48,8 @@ if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
   chsh -s /usr/local/bin/bash;
 fi;
 
-# Install `wget` with IRI support.
-brew install wget --with-iri
+# Install `wget`
+brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
@@ -60,7 +60,6 @@ brew install grep
 brew install openssh
 # TODO - what is this for:
 brew install screen
-brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -69,17 +68,18 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF (capture the flag) tools; see https://github.com/ctfs/write-ups.
-brew install binutils
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install hashpump
-brew install knock
-brew install netpbm
-# TODO - what is this for:
+#brew install binutils
+#brew install dex2jar
+#brew install dns2tcp
+#brew install fcrackzip
+#brew install hashpump
+#brew install knock
+#brew install netpbm
+
+# network security scanner:
 brew install nmap
 brew install pngcheck
-brew install socat
+#brew install socat
 # TODO - what is this for:
 brew install sqlmap
 brew install tcpflow
@@ -87,19 +87,18 @@ brew install tcpflow
 brew install tcpreplay
 brew install tcptrace
 brew install ucspi-tcp # `tcpserver` etc.
-# TODO - what is this for:
+# This is a pdf viewer:
 brew install xpdf
-
-# XZ Utils is free general-purpose data compression software with a high compression ratio.
-brew install xz
 
 # Install other useful binaries.
 brew install ack    # beyond grep
 brew install git
 brew install git-lfs
+brew install maven
 
 # Text-based browser:
 brew install lynx
+#brew install links # An alternative to lynx
 brew install p7zip
 brew install pigz   # Parallel gzip
 
@@ -107,8 +106,15 @@ brew install pigz   # Parallel gzip
 brew install tree
 brew install gradle
 
+# System resource monitor
+brew install htop
+
 # AWS
 brew install awscli
+
+#CloudFoundry
+brew tap cloudfoundry/tap
+brew install cf-cli
 
 # Better than cat:
 brew install bat
@@ -116,13 +122,23 @@ brew install bat
 # Convert from one doc format to another
 # eg, pandoc -f markdown -t html README.md > README.html
 brew install pandoc
+# Some pandoc dependencies:
+brew install librsvg
+brew install pdflatex
+brew cask install mactex
+#brew install homebrew/cask/basictex
 
 # Just for fun....
-brew install fortune
 brew install cowsay
+brew install figlet
+brew install fortune
 brew install lolcat
 
 brew install jenv
+brew install dos2unix
+
+# Search
+brew install the_silver_searcher
 
 # Remove outdated versions from the cellar.
 brew cleanup
