@@ -123,6 +123,10 @@ brew install cowsay
 brew install lolcat
 
 brew install jenv
+brew install dos2unix
+
+# Search
+brew install the_silver_searcher
 
 # Remove outdated versions from the cellar.
 brew cleanup
