@@ -17,7 +17,8 @@ export DEFAULT_USER="n0261864"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="af-magic"
-ZSH_THEME="agnoster"    # See https://github.com/agnoster/agnoster-zsh-theme
+#ZSH_THEME="agnoster"    # See https://github.com/agnoster/agnoster-zsh-theme
+ZSH_THEME="spaceship"   # See https://github.com/denysdovhan/spaceship-prompt
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
