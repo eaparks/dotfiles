@@ -12,9 +12,9 @@ alias p="cd ~/projects"
 alias cn="cd ${NOTES_DIR}"
 
 # cd to repos
-alias iuw="cd ~/Projects/iUnderwrite"
-alias nip1="cd ~/Projects/niProperty"
-alias nip2="cd ~/Projects/niProposal"
+alias iuw="cd ~/Projects/GRS/iUnderwrite"
+alias nip1="cd ~/Projects/GRS/niProperty"
+alias nip2="cd ~/Projects/GRS/niProposal"
 
 
 alias g="git"

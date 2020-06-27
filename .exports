@@ -43,7 +43,7 @@ export NVM_DIR="$HOME/.nvm"
 # Various _HOME variables
 export GRADLE_HOME="/usr/local/opt/gradle/libexec/"
 
-export JAVA_HOME=$(/usr/libexec/java_home)
+# Using jenv instead.  export JAVA_HOME=$(/usr/libexec/java_home)
 
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
