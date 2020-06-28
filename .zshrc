@@ -7,9 +7,9 @@ done;
 unset file;
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/n0261864/.oh-my-zsh"
+export ZSH="/Users/eparks/.oh-my-zsh"
 
-export DEFAULT_USER="n0261864"
+export DEFAULT_USER="eparks"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -18,7 +18,8 @@ export DEFAULT_USER="n0261864"
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="af-magic"
 #ZSH_THEME="agnoster"    # See https://github.com/agnoster/agnoster-zsh-theme
-ZSH_THEME="spaceship"   # See https://github.com/denysdovhan/spaceship-prompt
+#ZSH_THEME="random"
+ZSH_THEME=""
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -78,11 +79,36 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git history zsh-autosuggestions web-search)
+plugins=(
+  brew
+  colored-man-pages
+  colorize
+  cp
+  common-aliases
+  git
+  node
+  npm
+  rand-quote
+  sudo
+  web-search
+  yarn
+  z
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+
+# From https://github.com/sindresorhus/pure#getting-started
+# oh-my-zsh overrides the prompt, so Pure must be activated after `source $ZSH/oh-my-zsh.sh`
+# .zshrc
+autoload -U promptinit; promptinit
+prompt pure
+
+# z - for navigating to most used directories
+. /usr/local/etc/profile.d/z.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

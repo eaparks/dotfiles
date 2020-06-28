@@ -140,6 +140,9 @@ brew install dos2unix
 # Search
 brew install the_silver_searcher
 
+# for autojumping between recent folders(Check usage here - https://github.com/rupa/z/)
+brew install z
+
 # Remove outdated versions from the cellar.
 brew cleanup
 
