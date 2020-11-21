@@ -7,19 +7,15 @@ done;
 unset file;
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/eparks/.oh-my-zsh"
+export ZSH="/Users/n0261864/.oh-my-zsh"
 
-export DEFAULT_USER="eparks"
+export DEFAULT_USER="n0261864"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="robbyrussell"
-#ZSH_THEME="af-magic"
-#ZSH_THEME="agnoster"    # See https://github.com/agnoster/agnoster-zsh-theme
-#ZSH_THEME="random"
-ZSH_THEME=""
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -83,7 +79,6 @@ plugins=(
   brew
   colored-man-pages
   colorize
-  cp
   common-aliases
   git
   node
