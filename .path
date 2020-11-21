@@ -1,10 +1,10 @@
+export PATH=$HOME/.jenv/bin:$PATH
 export PATH="$PATH:/usr/local/bin"
 
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 
 export PATH=$GRADLE_HOME/bin:$PATH
 
-export PATH=$HOME/.jenv/bin:$PATH
 export PATH=$HOME/bin:$PATH
 export PATH=/usr/local/opt/ruby/bin:$PATH
 
