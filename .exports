@@ -52,7 +52,7 @@ export M2_HOME=/usr/local/Cellar/maven/3.6.3_1
 
 ########################
 
-# Temporary, for notes. Replace with date fnc:
+# TODO: for notes. Replace with date fnc:
 export YEAR="2020"
-export QUARTER="2"
+export QUARTER="4"
 
