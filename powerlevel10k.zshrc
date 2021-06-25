@@ -133,10 +133,10 @@ source $ZSH/oh-my-zsh.sh
 # # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-eval export PATH="/Users/eparks/.jenv/shims:${PATH}"
+eval export PATH="/Users/n0261864/.jenv/shims:${PATH}"
 export JENV_SHELL=zsh
 export JENV_LOADED=1
-unset JAVA_HOME
+# unset JAVA_HOME
 source '/usr/local/Cellar/jenv/0.5.4/libexec/libexec/../completions/jenv.zsh'
 jenv rehash 2>/dev/null
 jenv refresh-plugins

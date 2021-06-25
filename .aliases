@@ -1,15 +1,10 @@
 #!/usr/bin/env bash
 
-# Easier navigation:
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-
 # cd Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
-alias cn="cd ${NOTES_DIR}"
+alias cn='cd "${NOTES_DIR}"'
 
 # cd to repos
 alias uw="cd ~/Projects/GRS/iUnderwrite"
