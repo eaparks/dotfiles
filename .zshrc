@@ -7,9 +7,9 @@ done;
 unset file;
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/n0261864/.oh-my-zsh"
+export ZSH="/Users/${USER}/.oh-my-zsh"
 
-export DEFAULT_USER="n0261864"
+export DEFAULT_USER="${USER}"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
