@@ -67,15 +67,6 @@ brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
 
-# Install some CTF (capture the flag) tools; see https://github.com/ctfs/write-ups.
-#brew install binutils
-#brew install dex2jar
-#brew install dns2tcp
-#brew install fcrackzip
-#brew install hashpump
-#brew install knock
-#brew install netpbm
-
 # network security scanner:
 brew install nmap
 brew install pngcheck

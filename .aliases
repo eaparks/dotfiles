@@ -5,6 +5,7 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias cn='cd "${NOTES_DIR}"'
+alias en='gv "${NOTES_DIR}"/year"${YEAR}"/q"${QUARTER}"/notes"${YEAR}"q"${QUARTER}".txt'
 
 # cd to repos
 alias uw="cd ~/Projects/GRS/iUnderwrite"
@@ -35,10 +36,10 @@ alias la="ls -laF ${colorflag}"
 alias lal="ls -laF ${colorflag} | lolcat"
 
 # List only directories
-alias lsd="ls -ld ${colorflag} */"
+alias lsd="ls -lad ${colorflag} */"
 
 # List dotfiles
-alias l.="ls -d .* ${colorflag}"
+alias l.="ls ${colorflag}d .*"
 
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
