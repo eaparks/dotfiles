@@ -147,3 +147,7 @@ jenv() {
     command jenv "$command" "$@";;
   esac
 }
+
+
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+

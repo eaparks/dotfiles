@@ -128,3 +128,6 @@ prompt pure
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+

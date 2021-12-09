@@ -56,8 +56,8 @@ export GRADLE_HOME="/usr/local/opt/gradle/libexec/"
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
 export NOTES_DIR="$HOME/Documents/OneDrive/OneDriveLibMu/notes"
-export M2_HOME=/usr/local/Cellar/maven/3.6.3_1
-export MAVEN_HOME=/usr/local/Cellar/maven/3.6.3_1
+export M2_HOME=/usr/local/Cellar/maven/3.8.2
+export MAVEN_HOME=/usr/local/Cellar/maven/3.8.2
 
 ########################
 
