@@ -186,3 +186,5 @@ alias cat=bat
 alias find5='find . -mmin -5 -type f -exec ls -l {} +'
 alias find10='find . -mmin -10 -type f -exec ls -l {} +'
 
+alias cheat='open ~/cheatsheet.html'
+

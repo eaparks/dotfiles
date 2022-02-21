@@ -6,7 +6,7 @@ export EDITOR='vim';
 ##################
 # Node stuff
 ##################
-# Node Volume Manager
+# Node Version Manager
 export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
@@ -22,17 +22,27 @@ export NODE_REPL_MODE='sloppy';
 
 # For Zscaler certs
 export NODE_EXTRA_CA_CERTS=/Users/n0261864/Downloads/ZscalerRootCertificate-2048-SHA256.crt
+#export NODE_EXTRA_CA_CERTS=/Users/Shared/.certificates/zscaler.pem
+export AWS_CA_BUNDLE=/Users/Shared/.certificates/zscaler.pem
+export GIT_SSL_CAINFO=/Users/Shared/.certificates/zscaler.crt
+export CURL_CA_BUNDLE=/Users/Shared/.certificates/zscaler.pem
+export REQUESTS_CA_BUNDLE=/Users/Shared/.certificates/zscaler.pem
+export SSL_CERT_FILE=/Users/Shared/.certificates/zscaler.pem
 ##################
 
 
 # Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
 export PYTHONIOENCODING='UTF-8';
 
+## History stuff
 # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
+export HISTFILE=~/.zsh_history
 export HISTFILESIZE="${HISTSIZE}";
 # Omit duplicates and commands that begin with a space from history.
 export HISTCONTROL='ignoreboth';
+setopt APPEND_HISTORY
+setopt INC_APPEND_HISTORY
 
 # Prefer US English and use UTF-8.
 export LANG='en_US.UTF-8';
@@ -62,6 +72,6 @@ export MAVEN_HOME=/usr/local/Cellar/maven/3.8.2
 ########################
 
 # TODO: for notes. Replace with date fnc:
-export YEAR="2021"
-export QUARTER="3"
+export YEAR="2022"
+export QUARTER="1"
 
