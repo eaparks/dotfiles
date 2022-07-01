@@ -1,24 +1,21 @@
 #!/usr/bin/env bash
 
-# Easier navigation:
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-
 # cd Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
-alias cn="cd ${NOTES_DIR}"
+alias cn='cd "${NOTES_DIR}"'
+alias en='gv "${NOTES_DIR}"/year"${YEAR}"/q"${QUARTER}"/notes"${YEAR}"q"${QUARTER}".txt'
 
 # cd to repos
-alias iuw="cd ~/Projects/iUnderwrite"
-alias nip1="cd ~/Projects/niProperty"
-alias nip2="cd ~/Projects/niProposal"
+alias uw="cd ~/Projects/GRS/iUnderwrite"
+alias uwopp="cd ~/Projects/GRS/iUnderwrite/iuwOpportunity"
+alias nip1="cd ~/Projects/GRS/niProperty"
+alias nip2="cd ~/Projects/GRS/niProposal"
 
 
 alias g="git"
-alias h="history 50"
+alias h="history 70"
 alias gh='history | grep '
 alias cl="clear;lal"
 
@@ -39,10 +36,10 @@ alias la="ls -laF ${colorflag}"
 alias lal="ls -laF ${colorflag} | lolcat"
 
 # List only directories
-alias lsd="ls -ld ${colorflag} */"
+alias lsd="ls -lad ${colorflag} */"
 
 # List dotfiles
-alias l.="ls -d .* ${colorflag}"
+alias l.="ls ${colorflag}d .*"
 
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
@@ -188,4 +185,6 @@ alias cat=bat
 # find aliases
 alias find5='find . -mmin -5 -type f -exec ls -l {} +'
 alias find10='find . -mmin -10 -type f -exec ls -l {} +'
+
+alias cheat='open ~/cheatsheet.html'
 

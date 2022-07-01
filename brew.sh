@@ -34,19 +34,19 @@ brew install moreutils
 brew install findutils
 
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
+brew install gnu-sed
 
 # Install Bash 4 or is it 5.
 # TODO: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
-brew install bash
+#brew install bash
 #brew install bash-completion2   # This screws up filename completion with my aliases
-brew install bash-completion
+#brew install bash-completion
 
 # Switch to using brew-installed bash as default shell
-if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
-  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
-  chsh -s /usr/local/bin/bash;
-fi;
+#if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
+#  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
+#  chsh -s /usr/local/bin/bash;
+#fi;
 
 # Install `wget`
 brew install wget
@@ -55,7 +55,7 @@ brew install wget
 brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
+brew install vim
 brew install grep
 brew install openssh
 # TODO - what is this for:
@@ -66,15 +66,6 @@ brew tap bramstein/webfonttools
 brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
-
-# Install some CTF (capture the flag) tools; see https://github.com/ctfs/write-ups.
-#brew install binutils
-#brew install dex2jar
-#brew install dns2tcp
-#brew install fcrackzip
-#brew install hashpump
-#brew install knock
-#brew install netpbm
 
 # network security scanner:
 brew install nmap
@@ -139,6 +130,9 @@ brew install dos2unix
 
 # Search
 brew install the_silver_searcher
+
+# For autojumping between recent folders(Check usage here - https://github.com/rupa/z/)
+brew install z
 
 # Remove outdated versions from the cellar.
 brew cleanup
