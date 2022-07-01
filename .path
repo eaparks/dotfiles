@@ -10,3 +10,5 @@ export PATH=/usr/local/opt/ruby/bin:$PATH
 
 export PATH=$M2_HOME/bin:$PATH
 
+export PATH=/Library/PostgreSQL/14/bin:$PATH
+
