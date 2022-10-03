@@ -137,3 +137,6 @@ brew install z
 # Remove outdated versions from the cellar.
 brew cleanup
 
+# Pure zsh prompt (see: https://github.com/sindresorhus/pure#getting-started)
+brew install pure
+

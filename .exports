@@ -65,7 +65,7 @@ export GRADLE_HOME="/usr/local/opt/gradle/libexec/"
 
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 
-export NOTES_DIR="$HOME/Documents/OneDrive/OneDriveLibMu/notes"
+export NOTES_DIR="$HOME/Library/CloudStorage/OneDrive-LibertyMutual/notes"
 export M2_HOME=/usr/local/Cellar/maven/3.8.2
 export MAVEN_HOME=/usr/local/Cellar/maven/3.8.2
 
@@ -73,5 +73,5 @@ export MAVEN_HOME=/usr/local/Cellar/maven/3.8.2
 
 # TODO: for notes. Replace with date fnc:
 export YEAR="2022"
-export QUARTER="1"
+export QUARTER="4"
 
