@@ -134,6 +134,8 @@ brew install the_silver_searcher
 # For autojumping between recent folders(Check usage here - https://github.com/rupa/z/)
 brew install z
 
+brew install python
+
 # Remove outdated versions from the cellar.
 brew cleanup
 
