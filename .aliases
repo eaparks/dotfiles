@@ -8,11 +8,8 @@ alias cn='cd "${NOTES_DIR}"'
 alias en='gv "${NOTES_DIR}"/year"${YEAR}"/q"${QUARTER}"/notes"${YEAR}"q"${QUARTER}".txt'
 
 # cd to repos
-alias uw="cd ~/Projects/GRS/iUnderwrite"
-alias uwopp="cd ~/Projects/GRS/iUnderwrite/iuwOpportunity"
-alias nip1="cd ~/Projects/GRS/niProperty"
-alias nip2="cd ~/Projects/GRS/niProposal"
-
+alias uw="cd ~/Projects/GRS/"
+alias comp="cd ~/Projects/GRS/compliance"
 
 alias g="git"
 alias h="history 70"
