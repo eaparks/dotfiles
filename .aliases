@@ -11,6 +11,7 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias g="git"
 alias h="history"
+alias hh="history -50"
 alias cl="clear;la"
 
 # Detect which `ls` flavor is in use
