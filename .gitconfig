@@ -138,7 +138,7 @@
 	# Include summaries of merged commits in newly created merge commit messages
   log = true
 [mergetool "intellij"]
-  cmd = idea merge $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE") $(cd $(dirname "$BASE") && pwd)/$(basename "$BASE") $(cd $(dirname "$MERGED") && pwd)/$(basename "$MERGED")
+  cmd = idea merge “$LOCAL” “$REMOTE” “$BASE” “$MERGED”
   trustExitCode = true
 
 [diff]
@@ -179,3 +179,7 @@
 
 [gpg]
 	program = gpg
+[init]
+	defaultBranch = main
+[credential]
+	helper = osxkeychain
