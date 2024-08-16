@@ -125,10 +125,6 @@
 	changed = green
 	untracked = cyan
 
-[commit]
-	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
-
 [help]
 	# Automatically correct and execute mistyped commands
 	autocorrect = 1
@@ -175,7 +171,7 @@
 	name = Ed Parks
 	email = edward.parks@gmail.com
 # See ~/dotfiles/.gitconfig.private with key filled in:
-	signingkey = 
+	signingkey =
 
 [gpg]
 	program = gpg
