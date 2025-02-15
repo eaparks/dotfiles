@@ -46,3 +46,5 @@ export GRADLE_HOME="/usr/local/Cellar/gradle/4.9/"
 
 export GOPATH=$HOME/go
 
+export PGDATA=/Library/PostgreSQL/16/data
+
