@@ -125,10 +125,6 @@
 	changed = green
 	untracked = cyan
 
-[commit]
-	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
-
 [help]
 	# Automatically correct and execute mistyped commands
 	autocorrect = 1
@@ -138,7 +134,7 @@
 	# Include summaries of merged commits in newly created merge commit messages
   log = true
 [mergetool "intellij"]
-  cmd = idea merge “$LOCAL” “$REMOTE” “$BASE” “$MERGED”
+  cmd = idea merge $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE") $(cd $(dirname "$BASE") && pwd)/$(basename "$BASE") $(cd $(dirname "$MERGED") && pwd)/$(basename "$MERGED")
   trustExitCode = true
 
 [diff]
@@ -173,9 +169,9 @@
 
 [user]
 	name = Ed Parks
-	email = edward.parks@gmail.com
+	email = edwardparks@protonmail.com
 # See ~/dotfiles/.gitconfig.private with key filled in:
-	signingkey = 
+	signingkey =
 
 [gpg]
 	program = gpg

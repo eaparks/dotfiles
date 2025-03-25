@@ -36,9 +36,15 @@ export MANPAGER='less -X';
 export GPG_TTY=$(tty);
 
 # Node Volume Manager
-export NVM_DIR="/Users/n0261864/.nvm"
+export NVM_DIR="/Users/edwardparks/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Various _HOME variables
 export GRADLE_HOME="/usr/local/Cellar/gradle/4.9/"
+
+#export JAVA_HOME="/opt/homebrew/Cellar/openjdk@11/11.0.26"
+
+export JAVA_HOME="/opt/homebrew/opt/openjdk"
+
+
 

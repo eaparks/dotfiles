@@ -1,9 +1,19 @@
-export PATH="/usr/local/bin:$PATH"
+# Add directories to PATH and prevent dupes
+#
+add_to_path() {
+	if [[ -d "$1" ]] && [[ ":$PATH:" != *":$1:"* ]]; then
+		export PATH="$1:$PATH"
+	fi
+}
 
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+add_to_path "/usr/local/bin"
 
-export PATH="/usr/local/opt/node@8/bin:$PATH"
+add_to_path "/opt/homebrew/opt/openjdk@11/bin"
 
-export PATH=$GRADLE_HOME/bin:$PATH
+add_to_path "/usr/local/opt/coreutils/libexec/gnubin"
 
-export PATH=$HOME/.jenv/bin:$PATH
+add_to_path "$HOME"/bin
+
+add_to_path "/opt/homebrew/bin"
+
+add_to_path "$JAVA_HOME"/bin
