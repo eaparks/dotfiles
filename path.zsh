@@ -17,3 +17,7 @@ add_to_path "$HOME"/bin
 add_to_path "/opt/homebrew/bin"
 
 add_to_path "$JAVA_HOME"/bin
+
+# python3 -m site --user-base		gives:
+#			/Users/edwardparks/Library/Python/3.12
+add_to_path "/Users/edwardparks/Library/Python/3.12/bin"
