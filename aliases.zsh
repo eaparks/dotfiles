@@ -102,7 +102,8 @@ alias reload="exec ${SHELL} -l"
 alias path='echo -e ${PATH//:/\\n}'
 
 # Shortcut for gvim
-alias gv='gvim'
+# alias gv='gvim'
+alias gv='/Applications/MacVim.app/Contents/bin/gvim'
 
 # Git aliases (borrowed from oh-my-zsh repo)
 alias gst='git status'
@@ -159,3 +160,4 @@ alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
 
 alias cat=bat
+
