@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Make vim the default editor.
 export EDITOR='vim';
@@ -39,12 +39,9 @@ export GPG_TTY=$(tty);
 export NVM_DIR="/Users/edwardparks/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-# Various _HOME variables
-export GRADLE_HOME="/usr/local/Cellar/gradle/4.9/"
-
 #export JAVA_HOME="/opt/homebrew/Cellar/openjdk@11/11.0.26"
 
 export JAVA_HOME="/opt/homebrew/opt/openjdk"
 
-
+export ZSH="$HOME/.oh-my-zsh"
 
